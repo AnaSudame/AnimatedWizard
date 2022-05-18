@@ -1,0 +1,43 @@
+body {
+  background-color: #F1EEE9;
+}
+
+h2 {
+  color: #947EC3;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: fantasy;
+  animation: fadeInLeft, fadeOutRight;
+  animation-duration: 3s;
+  animation-delay: 0.9s;
+  animation-iteration-count: 2;
+  padding-left: 3px;
+}
+
+img {
+  display: inline-block;
+  margin: 0 0.5rem;
+  border-radius: 90%;
+  padding-left: 1%;
+  animation: flash, slideInLeft, fadeOutRight, rollOut, fadeOutBottomRight;
+  animation-duration: 2s, 3s, 2s, 3s, 2s;
+  animation-iteration-count: 2, 3, 2, 2, 2;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+  /* animation-play-state: paused; */
+}
+
+:root {
+  --animate-duration: 1000ms;
+  --animation-delay: 0.9s;
+  --animation-iteration-count: 5;
+}
+
+/* .animate_animated.animate_flash{
+  animate_repeat: 3;
+
+} */
+/*
+img:hover{
+    animation-play-state: running;
+} */
